@@ -1,5 +1,5 @@
 {
-    "name": "St7789",
+    "name": "St7789-by-sporniket",
     "version": "0.0.1",
     "description": "C++ library for PlatformIO, a model to interface with the LCD controller ST7789.",
     "keywords": "SPI",
