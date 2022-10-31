@@ -1,5 +1,5 @@
 # St7789
-C++ library for PlatformIO, a fluent syntax to specify the SPI settings of a platform.
+C++ library for PlatformIO, a model to interface with the LCD controller ST7789.
 
 [![PlatformIO Registry](https://badges.registry.platformio.org/packages/sporniket/library/St7789.svg)](https://registry.platformio.org/libraries/sporniket/St7789)
 
