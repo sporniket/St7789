@@ -1,0 +1,26 @@
+{
+    "name": "St7789",
+    "version": "0.0.1",
+    "description": "C++ library for PlatformIO, a model to interface with the LCD controller ST7789.",
+    "keywords": "SPI",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sporniket/St7789"
+    },
+    "authors": [
+        {
+            "name": "David SPORN",
+            "url": "https://github.com/sporniket",
+            "maintainer": true
+        }
+    ],
+    "export": {
+        "exclude": [
+            ".gitignore",
+            "*.gz"
+        ]
+    },
+    "license": "GPL-3.0-or-later",
+    "frameworks": "*",
+    "platforms": "*"
+}
