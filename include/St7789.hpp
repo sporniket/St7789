@@ -56,7 +56,7 @@ class St7789 {
         if (MUST_USE_EXTERNAL_BUFFER(command->dataLength)) {
             // create and fill external buffer
             command->keepExternalBufferOnDelete = false; // managed buffer
-            command->externalBuffer = new (uint8_t[command->dataLength]);
+            command->externalBuffer = new uint8_t[command->dataLength];
             return command->externalBuffer;
         } else {
             return command->internalBuffer;
